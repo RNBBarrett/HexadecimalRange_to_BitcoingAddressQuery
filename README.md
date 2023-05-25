@@ -7,10 +7,9 @@ Python parent_process.py
 
 This process has some hardcoded values you can alter based on the puzzle your trying to solve.
 
-# Setup the range you want to scan
+Set the range you want to scan in the code as well as the number of child windows you want to spawn:
 first = int('2000000000000000', 16)
 last = int('3fffffffffffffff', 16)
-# Set the number of parts
 num_parts = 44
 
 Range is obviously the range you want to scan. In this case its setup for puzzle 66.
